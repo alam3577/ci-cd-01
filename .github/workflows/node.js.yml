@@ -10,7 +10,7 @@ on:
 jobs:
   build:
 
-    runs-on: [18.x]
+    runs-on: self-hosted
 
     strategy:
       matrix:
