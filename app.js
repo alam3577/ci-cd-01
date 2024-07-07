@@ -3,7 +3,7 @@ const app = express();
 const PORT = 8080;
 
 app.get('/sajjad', async(req, res) => {
-    res.json({message: 'success'})
+    res.json({message: 'success', name: 'sajjad', lname: "alam", age: 25, gender: 'MALE'})
 });
 
 app.listen(PORT, () => {
